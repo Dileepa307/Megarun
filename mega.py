@@ -94,7 +94,7 @@ def main():
         for i in range(180):
             
             pr = i/180*100
-            print("\033[1;36;40m\n>>> [+]",str(int(pr)) +"% ",end="")
+            
             
             time.sleep(0.5)
             sys.stdout.write("\033[F")
