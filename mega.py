@@ -91,7 +91,7 @@ def main():
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "Please Wait For Next request",end="")
+        print("\033[1;0;40m\n","Please Wait For Next request",end="")
         for i in range(180):
             
             pr = i/180*100
